@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "GridTableViewController.h"
+#import "PageViewController.h"
 
 #define screen_height [UIScreen mainScreen].bounds.size.height
 #define screen_width [UIScreen mainScreen].bounds.size.width
@@ -60,5 +61,6 @@
 - (void)selectedCell:(NSInteger)index {
 
 }
+
 
 @end

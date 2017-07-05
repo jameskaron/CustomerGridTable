@@ -16,6 +16,8 @@
 		4C4668761EE1768400B1D646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4668741EE1768400B1D646 /* LaunchScreen.storyboard */; };
 		4C7C82D51EFC13A700DA7532 /* MainTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C82D41EFC13A700DA7532 /* MainTwoViewController.m */; };
 		4C7C82D91EFC177400DA7532 /* GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C82D81EFC177400DA7532 /* GridTableViewCell.m */; };
+		4CEA94DF1F0CE27800A10F6E /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA94DE1F0CE27800A10F6E /* PageViewController.m */; };
+		4CEA94E21F0CFF7A00A10F6E /* PageViewHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		4C7C82D41EFC13A700DA7532 /* MainTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTwoViewController.m; sourceTree = "<group>"; };
 		4C7C82D71EFC177400DA7532 /* GridTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableViewCell.h; sourceTree = "<group>"; };
 		4C7C82D81EFC177400DA7532 /* GridTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableViewCell.m; sourceTree = "<group>"; };
+		4CEA94DD1F0CE27800A10F6E /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		4CEA94DE1F0CE27800A10F6E /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		4CEA94E01F0CFF7A00A10F6E /* PageViewHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewHomeViewController.h; sourceTree = "<group>"; };
+		4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		4C4668651EE1768400B1D646 /* CustomerGridTable */ = {
 			isa = PBXGroup;
 			children = (
+				4CEA94DC1F0CE22E00A10F6E /* page view */,
 				4C7C82D21EFC07F600DA7532 /* Scheme_two */,
 				4C4668691EE1768400B1D646 /* AppDelegate.h */,
 				4C46686A1EE1768400B1D646 /* AppDelegate.m */,
@@ -108,6 +115,17 @@
 				4C7C82D81EFC177400DA7532 /* GridTableViewCell.m */,
 			);
 			name = cell;
+			sourceTree = "<group>";
+		};
+		4CEA94DC1F0CE22E00A10F6E /* page view */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA94DD1F0CE27800A10F6E /* PageViewController.h */,
+				4CEA94DE1F0CE27800A10F6E /* PageViewController.m */,
+				4CEA94E01F0CFF7A00A10F6E /* PageViewHomeViewController.h */,
+				4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */,
+			);
+			name = "page view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +206,8 @@
 				4C0E6BF11EF299F60059C2F9 /* GridTableViewController.m in Sources */,
 				4C46686B1EE1768400B1D646 /* AppDelegate.m in Sources */,
 				4C4668681EE1768400B1D646 /* main.m in Sources */,
+				4CEA94DF1F0CE27800A10F6E /* PageViewController.m in Sources */,
+				4CEA94E21F0CFF7A00A10F6E /* PageViewHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
