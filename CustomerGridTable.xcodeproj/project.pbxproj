@@ -18,6 +18,7 @@
 		4C7C82D91EFC177400DA7532 /* GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C82D81EFC177400DA7532 /* GridTableViewCell.m */; };
 		4CEA94DF1F0CE27800A10F6E /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA94DE1F0CE27800A10F6E /* PageViewController.m */; };
 		4CEA94E21F0CFF7A00A10F6E /* PageViewHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */; };
+		4CEA94E51F135CED00A10F6E /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA94E41F135CED00A10F6E /* PageOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		4CEA94DE1F0CE27800A10F6E /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		4CEA94E01F0CFF7A00A10F6E /* PageViewHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewHomeViewController.h; sourceTree = "<group>"; };
 		4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewHomeViewController.m; sourceTree = "<group>"; };
+		4CEA94E31F135CED00A10F6E /* PageOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageOneViewController.h; sourceTree = "<group>"; };
+		4CEA94E41F135CED00A10F6E /* PageOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				4CEA94DE1F0CE27800A10F6E /* PageViewController.m */,
 				4CEA94E01F0CFF7A00A10F6E /* PageViewHomeViewController.h */,
 				4CEA94E11F0CFF7A00A10F6E /* PageViewHomeViewController.m */,
+				4CEA94E31F135CED00A10F6E /* PageOneViewController.h */,
+				4CEA94E41F135CED00A10F6E /* PageOneViewController.m */,
 			);
 			name = "page view";
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				4C7C82D91EFC177400DA7532 /* GridTableViewCell.m in Sources */,
 				4C7C82D51EFC13A700DA7532 /* MainTwoViewController.m in Sources */,
 				4C0E6BF11EF299F60059C2F9 /* GridTableViewController.m in Sources */,
+				4CEA94E51F135CED00A10F6E /* PageOneViewController.m in Sources */,
 				4C46686B1EE1768400B1D646 /* AppDelegate.m in Sources */,
 				4C4668681EE1768400B1D646 /* main.m in Sources */,
 				4CEA94DF1F0CE27800A10F6E /* PageViewController.m in Sources */,
